@@ -79,7 +79,6 @@ body {
     justify-content: space-between;
 }
 
-
 .logo {
 
     display: flex;
@@ -98,7 +97,6 @@ body {
     color: var(--primary);
 
 }
-
 
 nav {
 
@@ -125,7 +123,6 @@ nav a:hover {
     color: var(--primary);
 
 }
-
 
 .theme-btn {
 
@@ -163,7 +160,6 @@ nav a:hover {
 
     padding: 0 20px;
 }
-
 
 .badge {
 
@@ -224,7 +220,6 @@ nav a:hover {
     margin: 30px 0 55px;
 }
 
-
 .billing-toggle {
 
     display: flex;
@@ -244,7 +239,6 @@ nav a:hover {
     box-shadow: var(--shadow);
 }
 
-
 .billing-label {
 
     font-size: 14px;
@@ -258,7 +252,6 @@ nav a:hover {
 
     color: var(--text);
 }
-
 
 .discount {
 
@@ -306,7 +299,6 @@ nav a:hover {
     transition: var(--transition);
 }
 
-
 .slider::before {
 
     content: "";
@@ -330,12 +322,10 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-
 .switch input:checked + .slider {
 
     background: var(--primary);
 }
-
 
 .switch input:checked + .slider::before {
 
@@ -382,7 +372,6 @@ nav a:hover {
     overflow: hidden;
 }
 
-
 .pricing-card::before {
 
     content: "";
@@ -402,7 +391,6 @@ nav a:hover {
     right: -70px;
 }
 
-
 .pricing-card:hover {
 
     transform: translateY(-10px);
@@ -421,13 +409,11 @@ nav a:hover {
 
 }
 
-
 .pricing-card.featured:hover {
 
     transform: translateY(-18px);
 
 }
-
 
 .popular {
 
@@ -476,7 +462,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-
 .plan-name {
 
     color: var(--primary);
@@ -489,7 +474,6 @@ nav a:hover {
 
     letter-spacing: 1px;
 }
-
 
 .card-top h2 {
 
@@ -517,14 +501,12 @@ nav a:hover {
     align-items: baseline;
 }
 
-
 .currency {
 
     font-size: 20px;
 
     font-weight: 700;
 }
-
 
 .amount {
 
@@ -534,7 +516,6 @@ nav a:hover {
 
     letter-spacing: -2px;
 }
-
 
 .period {
 
@@ -574,7 +555,6 @@ nav a:hover {
     transition: var(--transition);
 }
 
-
 .plan-btn:hover {
 
     background: var(--primary);
@@ -585,18 +565,15 @@ nav a:hover {
 
 }
 
-
 .plan-btn i {
 
     transition: transform var(--transition);
 }
 
-
 .plan-btn:hover i {
 
     transform: translateX(5px);
 }
-
 
 .plan-btn.primary {
 
@@ -606,7 +583,6 @@ nav a:hover {
 
     color: white;
 }
-
 
 .plan-btn.primary:hover {
 
@@ -623,7 +599,6 @@ nav a:hover {
     border-top: 1px solid var(--border);
 }
 
-
 .features h3 {
 
     font-size: 13px;
@@ -631,12 +606,10 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-
 .features ul {
 
     list-style: none;
 }
-
 
 .features li {
 
@@ -653,14 +626,12 @@ nav a:hover {
     font-size: 13px;
 }
 
-
 .features li i {
 
     color: var(--success);
 
     font-size: 13px;
 }
-
 
 .features li.disabled {
 
@@ -684,7 +655,6 @@ nav a:hover {
     text-align: center;
 }
 
-
 .trust > p {
 
     color: var(--text-light);
@@ -693,7 +663,6 @@ nav a:hover {
 
     margin-bottom: 25px;
 }
-
 
 .trust-items {
 
@@ -705,7 +674,6 @@ nav a:hover {
 
     gap: 30px;
 }
-
 
 .trust-items span {
 
@@ -720,7 +688,6 @@ nav a:hover {
     align-items: center;
 }
 
-
 .trust-items i {
 
     color: var(--primary);
@@ -734,7 +701,6 @@ nav a:hover {
 
     margin: 80px auto;
 }
-
 
 .section-heading {
 
@@ -751,7 +717,6 @@ nav a:hover {
     margin-top: 5px;
 }
 
-
 .faq-container {
 
     display: flex;
@@ -760,7 +725,6 @@ nav a:hover {
 
     gap: 12px;
 }
-
 
 details {
 
@@ -799,24 +763,20 @@ summary {
     align-items: center;
 }
 
-
 summary::-webkit-details-marker {
 
     display: none;
 }
-
 
 summary i {
 
     transition: transform var(--transition);
 }
 
-
 details[open] summary i {
 
     transform: rotate(180deg);
 }
-
 
 details p {
 
@@ -864,14 +824,12 @@ details p {
     z-index: 100;
 }
 
-
 .toast.show {
 
     transform: translateY(0);
 
     opacity: 1;
 }
-
 
 .toast i {
 
@@ -898,14 +856,12 @@ footer {
     margin: auto;
 }
 
-
 footer p {
 
     color: var(--text-light);
 
     font-size: 12px;
 }
-
 
 @media (max-width: 950px) {
 
@@ -923,7 +879,6 @@ footer p {
 
     }
 
-
     .pricing-card.featured:hover {
 
         transform: translateY(-10px);
@@ -940,13 +895,11 @@ footer p {
 
     }
 
-
     nav {
 
         display: none;
 
     }
-
 
     .hero {
 
@@ -954,13 +907,11 @@ footer p {
 
     }
 
-
     .hero h1 {
 
         letter-spacing: -1px;
 
     }
-
 
     .hero p {
 
@@ -968,20 +919,17 @@ footer p {
 
     }
 
-
     .billing-toggle {
 
         gap: 8px;
 
     }
 
-
     .discount {
 
         display: none;
 
     }
-
 
     .pricing {
 
@@ -991,20 +939,17 @@ footer p {
 
     }
 
-
     .pricing-card.featured {
 
         transform: none;
 
     }
 
-
     .pricing-card.featured:hover {
 
         transform: translateY(-10px);
 
     }
-
 
     .trust-items {
 
@@ -1015,7 +960,6 @@ footer p {
         gap: 15px;
 
     }
-
 
     footer {
 
@@ -1037,13 +981,11 @@ footer p {
 
     }
 
-
     .pricing-card {
 
         padding: 28px 22px;
 
     }
-
 
     .amount {
 
