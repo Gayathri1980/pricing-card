@@ -14,16 +14,12 @@ const monthlyLabel =
 const yearlyLabel =
     document.getElementById("yearlyLabel");
 
-
 billingToggle.addEventListener("change", function () {
 
     const isYearly = this.checked;
-
-
     prices.forEach(function (price) {
 
         if (isYearly) {
-
             price.textContent =
                 price.dataset.yearly;
 
@@ -34,7 +30,6 @@ billingToggle.addEventListener("change", function () {
         }
 
     });
-
 
     periods.forEach(function (period) {
 
@@ -63,7 +58,6 @@ const toast =
 
 const toastMessage =
     document.getElementById("toastMessage");
-
 
 planButtons.forEach(function (button) {
 
@@ -95,10 +89,8 @@ themeBtn.addEventListener("click", function () {
 
     document.body.classList.toggle("dark");
 
-
     const icon =
         themeBtn.querySelector("i");
-
 
     if (document.body.classList.contains("dark")) {
 
@@ -129,7 +121,6 @@ themeBtn.addEventListener("click", function () {
 const savedTheme =
     localStorage.getItem("theme");
 
-
 if (savedTheme === "dark") {
 
     document.body.classList.add("dark");
@@ -145,7 +136,6 @@ if (savedTheme === "dark") {
 
 const faqItems =
     document.querySelectorAll("details");
-
 
 faqItems.forEach(function (item) {
 
